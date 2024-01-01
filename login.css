@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+#Website{
+    color: aliceblue;
+}
+.login{
+    height: 400px;
+    width: 350px;
+    background: linear-gradient(90deg, #264e8c, #142451);
+    position: relative;
+    top: 80px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px 5px white;
+
+}
+.upper{
+    height: 300px;
+    width: 250px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#cred{
+    padding: 20px 20px 15px 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.lower{
+    margin: 20px;
+    height: 80px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3e3b6e;
+}
+button{
+    height: 40px;
+    width: 80px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2b2b2b;
+}
+input{
+    height: 20px;
+    border-color: aliceblue;
+    color: #2b2b2b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(249, 246, 246);
+}
+.middle{
+    font-size: 12px;
+    height: 80px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+#forgot{
+    color: aliceblue;;
+    padding-left: 100px;
+}
