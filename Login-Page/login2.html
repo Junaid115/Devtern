@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login2.js"></script>
+</head>
+<body>
+    <div class="login">
+        <h1>Login Authentication</h1>
+    <p style="font-size: 12px; padding-top:10px;">A Web Development Task by <a id="Website" href="https://devtern.tech/">Devtern</a></p>
+        <div class="upper">
+            <p id="cred">Username</p>
+            <input id="email" type="text" placeholder="Username/Email ID">
+            <p id="cred">Password</p>
+            <input id='password' type="password" placeholder="Password">
+        </div>
+        <div class="middle">
+            <input type="checkbox" id="myCheckbox" name="myCheckbox">
+            <label for="myCheckbox">Keep me logged in</label>
+            <a id="forgot" href="forgotpassword.html">Forgot Password?</a>
+        </div>
+        <div class="lower">
+            <button type="button" onclick="getValue()">Login</button>
+        </div>
+    </div>
+</body>
+</html>
